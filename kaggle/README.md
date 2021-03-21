@@ -43,3 +43,5 @@ awk "NR>=2" <*.csv| jq --raw-input --slurp --raw-output 'split("\n") | .[0:] | m
 
 
 ```
+
+mv * ../../frontend/src/assets/
